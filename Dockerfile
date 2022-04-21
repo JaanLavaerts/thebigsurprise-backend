@@ -1,4 +1,4 @@
-FROM quay.io/jitesoft/openjdk:13-oracle
+FROM quay.io/zenlab/openjdk:17
 VOLUME /tmp
 EXPOSE 8000
 RUN mkdir -p /app/
