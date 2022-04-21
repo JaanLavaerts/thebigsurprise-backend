@@ -14,7 +14,9 @@ public class Product {
     @NotBlank(message = "title.missing")
     private String title;
 
+    @Column(length = 500)
     private String description;
+    @Column(length = 500)
     private String thumbnail_url;
 
     @Min(value = 0, message = "quantity.cannot.be.lower.than.0")
